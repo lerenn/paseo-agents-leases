@@ -1,0 +1,9 @@
+{
+  "id": "agents-leases",
+  "name": "Agents Leases",
+  "description": "Named leases with timeouts, waiting queues and takeover, so only one agent at a time works on a PR, a QA environment or any shared resource.",
+  "requirements": {
+    "paseo": ">=0.11.2"
+  },
+  "build": [["npm", "ci"]]
+}
