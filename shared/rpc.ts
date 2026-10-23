@@ -24,7 +24,7 @@ export const countRpc = defineRpc({
 });
 
 export const forceReleaseRpc = defineRpc({
-  name: "leases.forceRelease",
+  name: "leases.force-release",
   input: z.object({ name: z.string() }),
   output: z.object({ ok: z.boolean(), message: z.string().nullable() }),
 });
